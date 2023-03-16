@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    
+    
+    <title>To list</title>
+</head>
+<body>
+
+      <div id="Container-global">
+           <header style="font-weight: bolder;"> Lista de Tarefas </header> 
+
+           <form id="Container-Form-Adicione">
+               <p style="font-weight: bolder;">Adicione a sua tarefa:</p>
+               <div class="form-control">
+                   <input type="text" id="input-adicione" placeholder="O que você vai fazer ?">
+                        <button type="submit">
+                            <i class="fa-thin fa-plus"></i>
+                        </button>
+               </div>
+            </form>
+
+
+            <form id="Container-Form-Editar" class="hide">
+                <p style="font-weight: bolder;">Edite a sua Tarefa:</p>
+                <div class="form-control">
+                    <input type="text" id="input-Editar">
+                         <button type="submit">
+                            <i class="fa-solid fa-check-double" ></i>
+                         </button>
+                         <button id="button-cancelar">Cancelar</button>
+                </div>
+             </form>
+
+          <div id="opçoes">
+    
+       <div id="search">
+                <h4>Pesquisar:</h4>
+   <!--              
+                <form>
+                    <div class="form-control">
+                    <input type="text" id="search-input" placeholder="Buscar...">
+                    <button id="search-button">   <i class="fa-solid fa-delete-left"></i> </button>
+                </div>
+                </form> 
+            </div>
+                <div id="filter">
+                    <h4>Filtrar:</h4>
+                    <select id="filter-select">
+                       <option value="all">Todos</option>
+                       <option value="done">Feitos</option>
+                       <option value="todo">A fazer</option>
+                    </select>
+               </div>
+            </div>
+     -->
+
+  
+            <div id="todo-list">
+              
+                  <H3 style="text-align: center; padding-top: 10px; padding-bottom: 20px;">Tamplete</H1>
+                  
+                  <div class="todo done">
+                  <h3>Estou fazendo algo aqui... Exemplo</h3>
+                  <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                  </button>
+                  <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                  <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                  </button>
+                </div>
+              </div>
+
+       
+       
+
+      </div>
+
+
+      <script src="Javascript.js"></script>
+</body>
+
+</html>
