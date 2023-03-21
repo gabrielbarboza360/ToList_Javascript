@@ -95,7 +95,6 @@ button:hover > i {
 #opçoes{
   display: flex;
   margin: auto;
-  border-bottom: 1px solid #ccc;
   padding-bottom: 30px;
 }
 
